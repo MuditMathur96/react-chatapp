@@ -1,0 +1,10 @@
+###
+POST http://localhost:5005/conversation
+Content-Type:application/json
+
+###
+
+###
+GET http://localhost:5005/conversation
+
+###

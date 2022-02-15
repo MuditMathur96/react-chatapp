@@ -1,0 +1,32 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "Chat app with react and express using socket.io",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd ./client && npm start",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuditMathur96/react-chatapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuditMathur96/react-chatapp/issues"
+  },
+  "homepage": "https://github.com/MuditMathur96/react-chatapp#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-jwt": "^6.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
